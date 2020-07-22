@@ -20,6 +20,7 @@ public class HomePage extends TestBase{
 	@FindBy(xpath = "//span[conatins(text(),'Tasks')]")
 	WebElement taskslink;
 	
+	
 	//Initialze PaageObjects
 	public HomePage() {
 		PageFactory.initElements(driver, this);
@@ -43,6 +44,8 @@ public class HomePage extends TestBase{
 		taskslink.click();
 		return new TasksPage();
 	}
+	
+
 	
 	public boolean verifyCorrectuserName() {
 		return usernameLabel.isDisplayed();

@@ -1,21 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39395" started-at="2020-07-17T13:12:22Z" finished-at="2020-07-17T13:13:01Z">
+  <suite name="Default suite" duration-ms="112892" started-at="2020-07-22T11:42:29Z" finished-at="2020-07-22T11:44:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39395" started-at="2020-07-17T13:12:22Z" finished-at="2020-07-17T13:13:01Z">
+    <test name="Default test" duration-ms="112892" started-at="2020-07-22T11:42:29Z" finished-at="2020-07-22T11:44:22Z">
       <class name="com.crm.qa.testcase.ContactsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@6b419da]" name="setUp" is-config="true" duration-ms="38083" started-at="2020-07-17T13:12:22Z" finished-at="2020-07-17T13:13:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@5906ebcb]" name="setUp" is-config="true" duration-ms="34776" started-at="2020-07-22T11:42:30Z" finished-at="2020-07-22T11:43:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContactsPageLabel()[pri:1, instance:com.crm.qa.testcase.ContactsPageTest@6b419da]" name="verifyContactsPageLabel" duration-ms="215" started-at="2020-07-17T13:13:00Z" finished-at="2020-07-17T13:13:00Z">
+        <test-method status="PASS" signature="clickOnNewContactSave(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@5906ebcb]" name="clickOnNewContactSave" duration-ms="16634" started-at="2020-07-22T11:43:04Z" data-provider="getContactTestData" finished-at="2020-07-22T11:43:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rakesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Digaram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mande]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SSG]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rakesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[rak@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[praman]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Automation Engineer]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Bhim Nagar]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Nagpur]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[445665.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7574556.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[4658686.0]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Enginner]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[CS]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[21.0]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[2020.0]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[maharaja]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactsPageLabel -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@6b419da]" name="tearDown" is-config="true" duration-ms="1013" started-at="2020-07-17T13:13:00Z" finished-at="2020-07-17T13:13:01Z">
+        </test-method> <!-- clickOnNewContactSave -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@5906ebcb]" name="tearDown" is-config="true" duration-ms="1745" started-at="2020-07-22T11:43:21Z" finished-at="2020-07-22T11:43:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@5906ebcb]" name="setUp" is-config="true" duration-ms="42762" started-at="2020-07-22T11:43:23Z" finished-at="2020-07-22T11:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnNewContactSave(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@5906ebcb]" name="clickOnNewContactSave" duration-ms="14782" started-at="2020-07-22T11:44:05Z" data-provider="getContactTestData" finished-at="2020-07-22T11:44:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gitajali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mudliar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SMT]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[git@@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[gitanjali@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ram]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[HR]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[BNT]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[aundh]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Madhya Pardesh]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[442323.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7.8523332E7]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[9.56222323E8]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[HR]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[HR]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[14.0]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[2020.0]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[CT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnNewContactSave -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@5906ebcb]" name="tearDown" is-config="true" duration-ms="1356" started-at="2020-07-22T11:44:20Z" finished-at="2020-07-22T11:44:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -5,9 +5,11 @@
     <classes>
       <class name="com.crm.qa.testcase.HomePageTest">
         <methods>
+          <include name="verifyHomeTitleTest"/>
           <include name="tearDown"/>
           <include name="verifyContactLLinkTest"/>
           <include name="setUp"/>
+          <include name="verifyUserNameTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcase.HomePageTest -->
       <class name="com.crm.qa.testcase.ContactsPageTest">
@@ -15,10 +17,14 @@
           <include name="verifyContactsPageLabel"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="clickOnNewContactSave"/>
+          <include name="clickOnNewContact"/>
+          <include name="selectContactsLabel"/>
         </methods>
       </class> <!-- com.crm.qa.testcase.ContactsPageTest -->
       <class name="com.crm.qa.testcase.LoginPageTest">
         <methods>
+          <include name="loginPageTitleTest"/>
           <include name="loginTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>

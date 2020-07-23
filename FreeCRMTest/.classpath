@@ -8,9 +8,9 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
@@ -28,5 +28,34 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/bridj-0.7.0.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/commons-cli-1.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/commons-configuration-1.10.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/commons-net-3.4.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/dx-1.7.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/jgoodies-common-1.8.1.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/jgoodies-forms-1.9.0.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/jintellitype-1.3.7.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/jxgrabkey-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/jython-standalone-2.7.0.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/qtaste-kernel-3.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/sikuli-3.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/sikulixapi-1.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/sikulixlibslux-1.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/sikulixlibswin-1.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/swing-layout-1.0.3.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/syntaxpane-1.1.4.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="E:/ecllipse/Sikuli Jar Files/xml-apis-1.3.04.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

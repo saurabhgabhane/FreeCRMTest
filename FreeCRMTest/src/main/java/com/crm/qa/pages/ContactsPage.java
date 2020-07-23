@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import com.crm.qa.base.TestBase;
+import com.crm.qa.util.TestUtil;
 
 public class ContactsPage extends TestBase {
 
@@ -223,6 +224,10 @@ public class ContactsPage extends TestBase {
 	@CacheLookup
 	WebElement getNameAfterSave;
 	
+	@FindBy(xpath = "//input[@name='image']")
+	@CacheLookup
+	WebElement fileNames;
+	
 	
 
 	
@@ -248,7 +253,7 @@ public class ContactsPage extends TestBase {
 		String emailAddress,String personalemailAdd,String tag,
 				String descriptions,String channelname,String addrss,String city,String state,String zipss,
 				String phonenumber,String homenumber,String position, String department,String dayss,String yearss
-				,String identifier) throws InterruptedException {
+				,String identifier) throws Exception {
 		
 		  double phoneNumber = Double.parseDouble(phonenumber); 
 		  double homeNumber = Double.parseDouble(homenumber); 
@@ -307,6 +312,7 @@ public class ContactsPage extends TestBase {
 		identifiers.sendKeys(identifier);
 		
 		Thread.sleep(2000);
+		TestUtil.fileUpload(fileNames);
 		saveButton.click();
 		
 		

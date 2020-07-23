@@ -8,8 +8,13 @@ import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
+import org.sikuli.script.FindFailed;
+import org.sikuli.script.Pattern;
+import org.sikuli.script.Screen;
 
 import com.crm.qa.base.TestBase;
 
@@ -17,7 +22,7 @@ public class TestUtil extends TestBase {
 	public static long PAGE_LOAD_TIMEOUT = 80;
 	public static long IMPLICIT_WAIT = 60;
 	public static String TESTDATA_SHEET_PATH = "C:\\Users\\Admin\\git\\FreeCRMTest\\FreeCRMTest\\src"
-												+ "\\main\\java\\com\\crm\\qa\\testdata\\signup.xlsx";
+			+ "\\main\\java\\com\\crm\\qa\\testdata\\signup.xlsx";
 	public static Workbook book;
 	public static Sheet sheet;
 
@@ -42,11 +47,26 @@ public class TestUtil extends TestBase {
 		}
 		return data;
 	}
-	
+
 	public static void takeScreenshotAtEndOfTest() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
 		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
+	}
+
+	public static void fileUpload(WebElement fileName) throws Exception {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].click();", fileName);
+		String imageFilePath = "C:\\Users\\Admin\\Pictures\\SikuliTesting\\";
+		String inputFilePath = "C:\\Users\\Admin\\Pictures\\SikuliTesting\\";
+
+		Screen screen = new Screen();
+		Pattern fileInputTextBox = new Pattern(imageFilePath + "FileTextBox.PNG");
+		Pattern openButton = new Pattern(imageFilePath + "open.png");
+
+		screen.wait(fileInputTextBox,20);
+		screen.type(fileInputTextBox, inputFilePath + "Artist.jpg");
+		screen.click(openButton);
 	}
 
 }

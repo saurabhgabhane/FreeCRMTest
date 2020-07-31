@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="72789" started-at="2020-07-22T12:32:55Z" finished-at="2020-07-22T12:34:08Z">
+  <suite name="Default suite" duration-ms="181057" started-at="2020-07-29T08:36:21Z" finished-at="2020-07-29T08:39:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="72789" started-at="2020-07-22T12:32:55Z" finished-at="2020-07-22T12:34:08Z">
+    <test name="Default test" duration-ms="181057" started-at="2020-07-29T08:36:21Z" finished-at="2020-07-29T08:39:22Z">
       <class name="com.crm.qa.testcase.ContactsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@6646153]" name="setUp" is-config="true" duration-ms="18684" started-at="2020-07-22T12:32:56Z" finished-at="2020-07-22T12:33:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@59fd97a8]" name="setUp" is-config="true" duration-ms="51120" started-at="2020-07-29T08:36:22Z" finished-at="2020-07-29T08:37:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickOnNewContactSave(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@6646153]" name="clickOnNewContactSave" duration-ms="16219" started-at="2020-07-22T12:33:14Z" data-provider="getContactTestData" finished-at="2020-07-22T12:33:31Z">
+        <test-method status="PASS" signature="clickOnNewContactSave(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@59fd97a8]" name="clickOnNewContactSave" duration-ms="42102" started-at="2020-07-29T08:37:13Z" data-provider="getContactTestData" finished-at="2020-07-29T08:37:55Z">
           <params>
             <param index="0">
               <value>
@@ -117,15 +117,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnNewContactSave -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@6646153]" name="tearDown" is-config="true" duration-ms="2394" started-at="2020-07-22T12:33:31Z" finished-at="2020-07-22T12:33:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@59fd97a8]" name="tearDown" is-config="true" duration-ms="1415" started-at="2020-07-29T08:37:55Z" finished-at="2020-07-29T08:37:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@6646153]" name="setUp" is-config="true" duration-ms="20040" started-at="2020-07-22T12:33:33Z" finished-at="2020-07-22T12:33:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@59fd97a8]" name="setUp" is-config="true" duration-ms="55784" started-at="2020-07-29T08:37:56Z" finished-at="2020-07-29T08:38:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickOnNewContactSave(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@6646153]" name="clickOnNewContactSave" duration-ms="13822" started-at="2020-07-22T12:33:53Z" data-provider="getContactTestData" finished-at="2020-07-22T12:34:07Z">
+        <test-method status="PASS" signature="clickOnNewContactSave(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@59fd97a8]" name="clickOnNewContactSave" duration-ms="27568" started-at="2020-07-29T08:38:52Z" data-provider="getContactTestData" finished-at="2020-07-29T08:39:20Z">
           <params>
             <param index="0">
               <value>
@@ -231,7 +231,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnNewContactSave -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@6646153]" name="tearDown" is-config="true" duration-ms="840" started-at="2020-07-22T12:34:07Z" finished-at="2020-07-22T12:34:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcase.ContactsPageTest@59fd97a8]" name="tearDown" is-config="true" duration-ms="2049" started-at="2020-07-29T08:39:20Z" finished-at="2020-07-29T08:39:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -67,7 +67,6 @@ public class ContactsPageTest extends TestBase{
 			String descriptions,String channelname,String addrss,String city,String state,String zip,
 			String phoneNumber,String homeNumber,String position, String department,String days,String years
 			,String identifier) throws Exception {
-		
 		contactPage.clickOnNewContact();
 		contactPage.saveNewContact(firstName, middleName, lastName, company, emailAddress, personalemailAdd, tag, descriptions, channelname, addrss, city, state, zip, phoneNumber, homeNumber, position, department, days, years, identifier);
 	}

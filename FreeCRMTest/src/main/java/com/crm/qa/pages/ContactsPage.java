@@ -311,9 +311,9 @@ public class ContactsPage extends TestBase {
 		years.sendKeys(String.valueOf(yeardata));
 		identifiers.sendKeys(identifier);
 		
-		Thread.sleep(2000);
-		TestUtil.fileUpload(fileNames);
+		//TestUtil.fileUpload(fileNames);
 		saveButton.click();
+		Thread.sleep(5000);
 		
 		
 	}

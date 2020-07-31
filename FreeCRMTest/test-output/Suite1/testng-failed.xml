@@ -1,35 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="com.qa.extentReportList.ExtentReporterNG"/>
+  </listeners>
   <test thread-count="5" name="CRMTest(failed)">
     <classes>
-      <class name="com.crm.qa.testcase.HomePageTest">
-        <methods>
-          <include name="verifyHomeTitleTest"/>
-          <include name="tearDown"/>
-          <include name="verifyContactLLinkTest"/>
-          <include name="setUp"/>
-          <include name="verifyUserNameTest"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcase.HomePageTest -->
       <class name="com.crm.qa.testcase.ContactsPageTest">
         <methods>
-          <include name="verifyContactsPageLabel"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="clickOnNewContactSave"/>
-          <include name="clickOnNewContact"/>
           <include name="selectContactsLabel"/>
         </methods>
       </class> <!-- com.crm.qa.testcase.ContactsPageTest -->
-      <class name="com.crm.qa.testcase.LoginPageTest">
-        <methods>
-          <include name="loginPageTitleTest"/>
-          <include name="loginTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcase.LoginPageTest -->
     </classes>
   </test> <!-- CRMTest(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

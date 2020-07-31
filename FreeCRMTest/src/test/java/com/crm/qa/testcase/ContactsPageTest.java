@@ -1,12 +1,7 @@
 /*
- * Author Saurabh Gabhane
- * 
+ * @Author Saurabh Gabhane
  */
-
 package com.crm.qa.testcase;
-
-import java.util.concurrent.TimeUnit;
-
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -37,7 +32,7 @@ public class ContactsPageTest extends TestBase{
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		contactPage=homePage.clickOnContactsLink();
 		Thread.sleep(2000);
-		
+		System.out.println("Ram");
 	}
 	
 	@Test(priority = 1)
